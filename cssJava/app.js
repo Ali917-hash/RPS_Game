@@ -24,7 +24,7 @@ const playGame = (userId) => {
     if (userId === "rock") {
         userWin = compId === "paper" ? false : true;
     } else if (userId === "paper") {
-        userWin = compId === "scissors" ? false : true;
+        userWin = compId === "scissor" ? false : true;
     } else {
         userWin = compId === "rock" ? false : true;
     }
